@@ -6,6 +6,7 @@
   <title>College Job Applications</title>
   <style>
     body {
+      display:grid;
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
@@ -45,12 +46,58 @@
       cursor: pointer;
       font-size: 16px;
     }
+
+    .profile-card {
+      display: flex;
+      justify-content: center;
+      /*align-items: center;*/
+      height:50vh;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      width: 400px;
+      
+    }
+
+    .profile-photo {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin: 20px;
+    }
+
+    .info {
+      padding: 20px;
+    }
+
+    .info p {
+      margin: 8px 0;
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>Job Applications for Colleges/Schools</h1>
   </header>
+  <br>
+  <br>
+
+  <div class="profile-card">
+    <div class="card">
+      <img class="profile-photo" src="teacher.jpg" alt="Profile Photo">
+      <div class="info">
+        <p><strong>Name:</strong> John Doe</p>
+        <p><strong>Email:</strong> john.doe@example.com</p>
+        <p><strong>Experience:</strong> 5 years</p>
+        <p><strong>Qualification:</strong> Bachelor's in Computer Science</p>
+      </div>
+    </div>
+  </div>
 
   <section>
     <div class="college-name">College Name 1</div>
