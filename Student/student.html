@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,77 +7,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="student.css">
     <title>Self Verification Form</title>
-
 </head>
 
 <body>
-
     <div class="form-body_1">
-        <form action="" method="get">
+        <form action="student-main.html" method="post">
 
             <div class="heading">
-
-
                 <h1>Self Verification Form</h1>
                 <h4>Please fill all the text in the field</h4>
-
             </div>
 
+            <label for="college">Select Your College:</label>
+            <input type="text" id="college" name="college" placeholder="Enter College name" required>
 
-            <div class="form-body_2">
+            <br>
+            <br>
 
-                <p>Select Your College :</p>
-                <select name="College's name" placeholder="select" required>
-                    <option></option>
-                    <option value="L.R Tiwari College Of Engineering">L.R Tiwari College Of Engineering</option>
-                    <option value="VJTI">VJTI</option>
-                    <option>GECA</option> 
-                </select>
-                
-                    <br>
-                    <br>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Full Name" required>
 
-                    <p>Your Name: </p>
-                    <input type="text" placeholder="Your Full Name" required>
+            <br>
+            <br>
 
-                    <br>
-                    <br>
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="Valid Email Address" required>
 
-                    <p>Your email: </p>
-                    <input type="email" placeholder="Valid Email Address" required>
+            <br>
+            <br>
 
-                    <br>
-                    <br>
+            <label for="roll">Roll No:</label>
+            <input type="text" id="roll" name="roll" placeholder="Your Roll No.">
 
-                    <p>Roll no: </p>
-                    <input type="text" placeholder="your roll no.">
+            <br>
+            <br>
 
-                    <br>
-                    <br>
+            <label for="branch">Branch:</label>
+            <input type="text" id="branch" name="branch" placeholder="Branch" required>
 
-                    <p>Branch: </p>
-                    <input type="text" placeholder="branch" required>
+            <label for="year">Year:</label>
+            <input type="text" id="year" name="year" placeholder="Mention Your Year" required>
 
-                    <p>Year: </p>
-                    <input type="text" placeholder="mention your year" required>
+            <br>
+            <br>
 
-                    <br>
-                    <br>
-
-
-
-
-                <br>
-                <br>
-
-                <a href="student-main.html"><button>Login</button></a>
-            </div>
+            <button type="submit">Submit</button>
 
         </form>
-
-
     </div>
-
 </body>
 
 </html>

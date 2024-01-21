@@ -4,7 +4,7 @@
 }
 
 body{
-    align-content: center;
+    align-items: center;
     width:50%;
     height:50%;
     margin: 30px 400px;
@@ -16,7 +16,7 @@ body{
     align-items: center;
     border: 1px solid #ccc;
     border-radius: 10px;
-    background-color:  rgb(3, 193, 3);
+    /* background-color:  rgb(3, 193, 3); */
     
 }
 
